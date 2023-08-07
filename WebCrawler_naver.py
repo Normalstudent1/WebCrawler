@@ -1,3 +1,6 @@
+#Naver User Policy Crawler
+#네이버 사용자 이용약관 크롤러
+
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import os
