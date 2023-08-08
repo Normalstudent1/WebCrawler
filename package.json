@@ -2,7 +2,7 @@
   "name": "js-webcrawler",
   "version": "1.0.0",
   "description": "Web crawler crawling terms of use in Korean most-visited sites",
-  "main": "main.js",
+  "main": "naver.js",
   "dependencies": {
     "asynckit": "^0.4.0",
     "axios": "^1.4.0",
