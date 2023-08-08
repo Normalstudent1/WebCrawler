@@ -1,8 +1,7 @@
-//구글 이용약관 크롤링
+//구글 이용약관 크롤링 (반복문X)
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-// axios는 Promise를 반환하기 때문에 then, catch를 통해 chaining 할 수 있다.
 axios({
     // 크롤링을 원하는 페이지 URL
     url: 'https://policies.google.com/privacy?hl=ko',
